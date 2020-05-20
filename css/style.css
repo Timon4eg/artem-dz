@@ -1,7 +1,6 @@
 body {
     margin: 0;
 }
-  
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -9,7 +8,6 @@ body {
     font-family: Arial;
     font-size: 16px;
 }
-
 .main-header {
     width: 100%;
     padding: 50px;
@@ -17,18 +15,15 @@ body {
     background-color: #445162;
     color: #fff;
 }
-
 .main-header:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
 .main-header-wrp {
     float: left;
 }
-
 .main-header-title {
     margin: 0 0 51px 0;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
@@ -36,7 +31,6 @@ body {
     font-size: 60px;
     font-weight: 400;
 }
-
 .main-header-list {
     margin: 0;
     list-style-type: none;
@@ -46,11 +40,9 @@ body {
     font-weight: 400;
     line-height: 36px;
 }
-
 .main-header-list-item {
     position: relative;
 }
-
 .main-header-list-item:before {
     content: "";
     display: block;
@@ -62,7 +54,6 @@ body {
     top: 6px;
     left: -39px;
 }
-
 .main-header-img {
     display: block;
     width: 469px;
@@ -71,25 +62,21 @@ body {
     float: right;
     color: black;
 }
-
 .about-product {
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
 }
-
 .about-product:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;    
 }
-
 .about-product-wrp {
     width: 55%;
     float: left;
 }
-
 .about-product-title {
     color: #445161;
     font-size: 30px;
@@ -97,7 +84,6 @@ body {
     line-height: 36px;
     margin: 0 0 30px 0;
 }
-
 .about-product-text {
     color: #333333;
     font-size: 16px;
@@ -105,11 +91,9 @@ body {
     line-height: 24px;
     margin: 0 0 20px 0;
 }
-
 .about-product-text:last-child {
     margin: 0;
 }
-
 .about-product-video {
     display: block;
     width: 430px;
@@ -117,21 +101,18 @@ body {
     background-color: #445161;
     float: right;
 }
-
 .dignity {
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
     background-color: #f5f5f5;
 }
-
 .dignity:after {
     content: "";
     display: block;
     width: 100%;
     clear: both; 
 }
-
 .dignity-title {
     color: #445161;
     font-size: 30px;
@@ -140,14 +121,12 @@ body {
     text-align: center;
     margin: 0 0 29px 0;
 }
-
 .dignity-list1 {
     margin: 0;
     width: 46%;
     list-style-type: none;
     float: left;
 }
-
 .dignity-list1-item {
     color: #333333;
     font-size: 16px;
@@ -156,7 +135,6 @@ body {
     position: relative;
     margin: 0 0 35px 0;
 }
-
 .dignity-list1-item:before {
     content: "";
     display: block;
@@ -169,14 +147,12 @@ body {
     top: 5px;
     left: -40px;    
 }
-
 .dignity-list2 {
     margin: 0;
     width: 46%;
     list-style-type: none;
     float: right;
 }
-
 .dignity-list2-item {
     color: #333333;
     font-size: 16px;
@@ -185,7 +161,6 @@ body {
     position: relative;
     margin: 0 0 35px 0;
 }
-
 .dignity-list2-item:before {
     content: "";
     display: block;
@@ -198,12 +173,10 @@ body {
     top: 5px;
     left: -40px;    
 }
-
 .dignity-list1-item:last-child,
 .dignity-list2-item:last-child {
 margin: 0;
 }
-
 .screenshots {
     width: 100%;
     padding: 50px;
@@ -214,14 +187,12 @@ margin: 0;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .screenshots:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
-
 .screenshots-title {
     display: block;
     width: 100%;
@@ -232,7 +203,6 @@ margin: 0;
     line-height: 36px;
     margin: 0 0 35px 0;
 }
-
 .screenshots-item {
     width: 48%;
     margin: 0 0px 30px 0;
@@ -242,12 +212,10 @@ margin: 0;
     justify-content: space-between;
     align-items: flex-start;
 }
-
 .screenshots-item:nth-child(4),
 .screenshots-item:nth-child(5) {
   margin: 0;
 } 
-
 .screenshots-item-image {
     display: block;
     width: 200px;
@@ -255,13 +223,11 @@ margin: 0;
     margin: 0 15px 0 0;
     background-color: #445161;
 }
-
 .screenshots-item-figcaption {
     width: 62%;
     box-sizing: border-box;
 
 }
-
 .screenshots-item-title {
     color: #445161;
     font-size: 24px;
@@ -269,7 +235,6 @@ margin: 0;
     line-height: 30px;
     margin: 0 0 15px 0;
 }
-
 .screenshots-item-text {
     margin: 0 0 0 0;
     box-sizing: border-box;
