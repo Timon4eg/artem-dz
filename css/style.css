@@ -106,6 +106,10 @@ body {
     margin: 0 0 20px 0;
 }
 
+.about-product-text:last-child {
+    margin: 0;
+}
+
 .about-product-video {
     display: block;
     width: 430px;
@@ -195,6 +199,11 @@ body {
     left: -40px;    
 }
 
+.dignity-list1-item:last-child,
+.dignity-list2-item:last-child {
+margin: 0;
+}
+
 .screenshots {
     width: 100%;
     padding: 50px;
@@ -234,10 +243,10 @@ body {
     align-items: flex-start;
 }
 
-/**.screenshots-item:nth-child(4),
-.screenshots-item:nth-child(5){
+.screenshots-item:nth-child(4),
+.screenshots-item:nth-child(5) {
   margin: 0;
-}*/
+} 
 
 .screenshots-item-image {
     display: block;
